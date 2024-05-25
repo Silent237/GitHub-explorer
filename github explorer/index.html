@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Explorer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" alt="GitHub Logo" id="githubLogo">
+        <h1>GitHub Explorer</h1>
+        <input type="text" id="username" placeholder="Enter GitHub username">
+        <button id="searchBtn">Search</button>
+        <div id="userDetails" class="hidden">
+            <h2 id="userName"></h2>
+            <p id="repoCount"></p>
+            <p id="followersCount"></p>
+            <a id="profileLink" href="#" target="_blank">View Profile</a>
+        </div>
+        <p id="errorMessage" class="hidden">User not found. Please try again.</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
